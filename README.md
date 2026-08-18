@@ -1,11 +1,14 @@
-# DAA Lab — Design and Analysis of Algorithms
+# Design and Analysis of Algorithms — Lab Programs
 
-Lab programs implemented in Python.
+This repository contains Python implementations and time analysis for core Design and Analysis of Algorithms (DAA) lab experiments.
 
 ## Contents
 
-| # | Program | Folder | Technique |
-|---|---------|--------|-----------|
+| # | Program | Folder / File | Technique |
+|---|---------|----------------|-----------|
+| 1 | Sorting Algorithms (Bubble, Selection, Insertion, Merge, Quick) | `1_SortingAlgorithms/` | Sorting |
+| 2 | Searching Algorithms (Linear, Binary — iterative & recursive) | `2_SearchingAlgorithms/` | Searching |
+| 3 | Heap Sort | `3_HeapSort/` | Heap |
 | 4 | Factorial (Iterative vs Recursive) with time analysis | `4_Factorial/` | Iteration & Recursion |
 | 5 | 0/1 Knapsack Problem | `5_Knapsack/` | Dynamic Programming |
 | 6 | Chain Matrix Multiplication | `6_MatrixChainMultiplication/` | Dynamic Programming |
@@ -16,51 +19,18 @@ Lab programs implemented in Python.
 Each program is standalone. Run with Python 3:
 
 ```bash
-python3 4_Factorial/factorial.py
-python3 5_Knapsack/knapsack.py
-python3 6_MatrixChainMultiplication/matrix_chain_multiplication.py
-python3 7_CoinChange/coin_change.py
+python 4_Factorial/factorial.py
+python 5_Knapsack/knapsack.py
+python 6_MatrixChainMultiplication/matrix_chain_multiplication.py
+python 7_CoinChange/coin_change.py
 ```
 
-Each script prompts for input on the console.
+Each script prompts for input on the console, prints a correctness check, and (where applicable) a runtime comparison table.
 
-## Complexity Summary
+## Requirements
 
-| Program | Time Complexity | Space Complexity |
-|---|---|---|
-| Factorial (Iterative) | O(n) | O(1) |
-| Factorial (Recursive) | O(n) | O(n) — call stack |
-| 0/1 Knapsack | O(n·W) | O(n·W) |
-| Matrix Chain Multiplication | O(n³) | O(n²) |
-| Coin Change | O(n·amount) | O(amount) |
-
-## Sample Inputs
-
-**Program 4 — Factorial**
-```
-Enter a number: 10
-```
-
-**Program 5 — Knapsack**
-```
-Number of items: 4
-Weights: 1 3 4 5
-Values:  1 4 5 7
-Capacity: 7
-```
-
-**Program 6 — Matrix Chain Multiplication**
-```
-Number of matrices: 6
-Dimensions: 30 35 15 5 10 20 25
-```
-
-**Program 7 — Coin Change**
-```
-Coins: 1 2 5
-Amount: 11
-```
+- Python 3.x (standard library only — `time`, `random`, `sys`)
 
 ## Author
 
-DAA Lab Submission
+Het Changela
