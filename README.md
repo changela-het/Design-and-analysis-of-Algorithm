@@ -12,7 +12,6 @@ This repository contains Python implementations and time analysis for core Desig
 | 4 | Factorial (Iterative vs Recursive) with time analysis | `4_Factorial/` | Iteration & Recursion |
 | 5 | 0/1 Knapsack Problem | `5_Knapsack/` | Dynamic Programming |
 | 6 | Chain Matrix Multiplication | `6_MatrixChainMultiplication/` | Dynamic Programming |
-| 7 | Making a Change Problem (Coin Change) | `7_CoinChange/` | Dynamic Programming |
 
 ## How to Run
 
@@ -22,7 +21,6 @@ Each program is standalone. Run with Python 3:
 python 4_Factorial/factorial.py
 python 5_Knapsack/knapsack.py
 python 6_MatrixChainMultiplication/matrix_chain_multiplication.py
-python 7_CoinChange/coin_change.py
 ```
 
 Each script prompts for input on the console, prints a correctness check, and (where applicable) a runtime comparison table.
